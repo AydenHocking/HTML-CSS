@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ayden Hocking">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ayden Hocking Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <section id="logolinks">
+            <i class="fa-solid fa-gears"></i>
+            <a href="index.html">HOME</a>
+            <a href="projects.html">PROJECTS</a>
+        </section>
+    </header>
+    <main>
+        <section id="opener">
+            <h1>WELCOME</h1>
+            <h2>I'm Ayden Hocking</h2>
+            <ul>
+                <li><i class="fa-solid fa-laptop"></i>Software-Engineer</li>
+                <li><i class="fa-solid fa-cubes"></i>Additive-Manufacturing</li>
+                <li><i class="fa-solid fa-camera-retro"></i>Photographer</li>
+            </ul>
+            <img src="/images/IMG_3075.jpg" alt="Picture of Me">
+            <p><q>This is my collection of projects, tools, and resources I have generated throughout my experience in
+                    these fields.</q></p>
+        </section>
+
+        <section id="about">
+            <h3>Background</h3>
+            <div class="allbackgrounds">
+                <div class="background1">
+                    <h4><i class="fa-solid fa-laptop"></i><a href="/projects.html">Software-Engineering</a><i
+                            class="fa-solid fa-laptop"></i></h4>
+                    <p>I began software engineering in college at UNC Charlotte. I have since
+                        learned a plethora of programming languages, including Javascript,
+                        C, Python, Assembly, and HTML. These tools have given me the ability to
+                        create websites such as this and create simple execution-based programs.
+                    </p>
+                </div>
+                <div class="background2">
+                    <h4><i class="fa-solid fa-cubes"></i><a
+                            href="/projects.html">Additive-Manufacturing-Technician</a><i class="fa-solid fa-cubes"></i>
+                    </h4>
+                    <p>Working in the additive manufacturing industry for over a year, I have
+                        learned skills revolving around CAD modeling and 3d Systems technology.
+                        I have used SLA and FDM systems to produce approximately 10,000 parts each year.
+                    </p>
+                </div>
+                <div class="background2">
+                    <h4><i class="fa-solid fa-camera-retro"></i><a href="/projects.html">Photography</a><i
+                            class="fa-solid fa-camera-retro"></i></h4>
+                    <p>Photography has become a recent hobby and side project I enjoy partaking in
+                        when I have free time. I currently use a Sony a6100 with the standard 16-50mm lens.
+                        I generally use these skills for landscapes, cars, and some portraits, depending on the
+                        needs of my client.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="additionalinfo">
+            <h3>Awards, Certifications, Training</h3>
+            <div>
+                <ul>
+                    <li>NX CAD Modeling Training</li>
+                    <li>Microsoft Office Training</li>
+                    <li>Adobe Workshop Certified</li>
+                    <li>ServSafe Certified</li>
+                    <li>Summa Cum Laude Award</li>
+                    <li>CVCC Dean's List Award</li>
+                    <li>Phi Theta Gamma Award</li>
+                    <li>Ricky Hendrick Scholarship Award</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contact">
+            <h3>Contact Me</h3>
+            <div class="allcontacts">
+                <ul>
+                    <li><a href="https://www.instagram.com/chillout_szn" target="_blank">
+                            <h4><i class="fa-brands fa-square-instagram"></i> Instagram</h4>
+                        </a></li>
+                    <li><a href="mailto:ahocking@uncc.edu">
+                            <h4><i class="fa-solid fa-envelope"></i>
+                                ahocking@uncc.edu</h4>
+                        </a></li>
+                    <li><a href="tel:+1234567890">
+                            <h4><i class="fa-solid fa-square-phone"></i> +1 (234) 567-8900</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <form action="submit_form.php" method="POST">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required minlength="2" maxlength="50">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="subject">Project:</label>
+                <input type="text" id="subject" name="subject" required minlength="2" maxlength="100">
+            </div>
+            <div>
+                <label for="message">Details:</label>
+                <textarea id="message" name="message" rows="5" required minlength="10" maxlength="1000"></textarea>
+            </div>
+            <input type="reset" class="button" value="Send Message">
+        </form>
+        <p>&copy;2024 Ayden Hocking.</p>
+    </footer>
+
+</body>
+
+</html>
