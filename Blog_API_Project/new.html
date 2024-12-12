@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebDev Circle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/new.js" defer></script>
+</head>
+<body>
+  <header class="flex-row">
+    <a href="index.html"><h1>DEV Circle</h1></a>
+    <a href="new.html" class="accent-btn"><i class="fa-regular fa-pen-to-square"></i> Write</a>
+  </header>
+
+ <main>
+  <div class="notification-container hidden">
+    <div class="notification"></div>
+    <button type="button" class="close"><span>&times;</span></button>
+  </div>
+    <div class="form-container">
+        <form>
+            <div>
+            <label for="title">Title</label>
+            <input id="title" name="title" type="text" minlength="3" required>
+            </div>
+            <div>
+            <label for="author">Author</label>
+            <input id="author" name="author" type="text" minlength="3" required>
+            </div>
+            <div>
+            <label for="content">Content</label>
+            <textarea id="content" name="content" rows="8" minlength="10" required></textarea>
+            </div>
+            <button type="submit" class="accent-btn">POST</button>
+        </form>  
+    </div>
+ </main>
+</body>
+</html>
