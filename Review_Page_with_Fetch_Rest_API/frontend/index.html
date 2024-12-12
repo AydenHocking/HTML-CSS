@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/index.js" defer></script>
+    <title>Feedbacks</title>
+</head>
+<body>
+    <main class="flex">
+        <div class="card">
+            <form>
+                <h3>How would you rate our service?</h3>
+                <label for="rating">Rating</label>
+                <input id="rating" type="number" placeholder="1-5" min="1" max="5" required>
+                <label for="feedback">Feedback</label>
+                <textarea id="feedback" placeholder="What can we do to improve?" minlength="10" required></textarea>
+                <button class="second-column">Submit Review</button>
+            </form>
+        </div>
+        
+        <div class="middle-section hidden">
+           
+            <div class="stats">
+                <div class="average"></div>
+                <div class="flex">
+                    <span class="scale"></span>
+                    <span class="total"></span>
+                </div>
+            </div>
+            <div class="order-wrapper">
+                <label for="order">Sort By</label>
+                <select name="order" id="order">
+                    <option value="descending">Highest Rated</option>
+                    <option value="ascending">Lowest Rated</option>
+                </select>
+            </div>
+        </div>
+        <div class="review-container flex"></div>
+    </main>
+    
+</body>
+</html>

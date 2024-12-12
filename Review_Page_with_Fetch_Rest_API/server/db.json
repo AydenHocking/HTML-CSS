@@ -1,0 +1,54 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "rating": 4,
+      "feedback": "Ipsum sed repellendus beatae rem natus."
+    },
+    {
+      "id": 2,
+      "rating": 5,
+      "feedback": "Consectetur dolor ab dolore blanditiis ea temporibus nam ipsam."
+    },
+    {
+      "id": 3,
+      "rating": 3,
+      "feedback": "Repellat distinctio amet sequi corrupti perferendis perspiciatis repellat error sunt."
+    },
+    {
+      "id": 4,
+      "rating": 2,
+      "feedback": "Velit natus velit quae."
+    },
+    {
+      "id": 5,
+      "rating": 4,
+      "feedback": "Suscipit aliquid corporis perspiciatis iste similique."
+    },
+    {
+      "id": 6,
+      "rating": 1,
+      "feedback": "Praesentium sapiente animi ex."
+    },
+    {
+      "id": 7,
+      "rating": 3,
+      "feedback": "Eligendi dolor itaque nesciunt consequatur odit molestias illo."
+    },
+    {
+      "id": 8,
+      "rating": 5,
+      "feedback": "Dolorum doloremque suscipit explicabo."
+    },
+    {
+      "id": 9,
+      "rating": 5,
+      "feedback": "Repellat necessitatibus non illum."
+    },
+    {
+      "id": 10,
+      "rating": 5,
+      "feedback": "Quisquam nemo qui quas vel."
+    }
+  ]
+}
