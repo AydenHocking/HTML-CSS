@@ -23,3 +23,4 @@ This project is a review handling center where user reviews are retrieved from a
 - **Visual Studio Code (Live-Server Extension)**:
 
 ---
+![Preview_Image](/Preview_Image.png)
