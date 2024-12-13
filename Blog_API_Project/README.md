@@ -1,5 +1,5 @@
 # Blog API Project 
-#This project is a fully functional blogging application that integrates with a JSON server to provide features for viewing, creating, updating, and deleting blog posts. The app is built with a focus on frontend and backend integration, user interaction, and error handling. Features include Landing Page, New Blog Creation, Blog Details, Edit BLog, Error Handling.
+This project is a fully functional blogging application that integrates with a JSON server to provide features for viewing, creating, updating, and deleting blog posts. The app is built with a focus on frontend and backend integration, user interaction, and error handling. Features include Landing Page, New Blog Creation, Blog Details, Edit Blogs, Error Handling.
 ---
 
 ## Frontend
