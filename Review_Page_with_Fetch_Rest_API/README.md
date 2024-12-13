@@ -23,4 +23,4 @@ This project is a review handling center where user reviews are retrieved from a
 - **Visual Studio Code (Live-Server Extension)**:
 
 ---
-![Preview_Image](/WebDesign/Review_Page_with_Fetch_Rest_API/Preview_Image.png)
+![Preview Image](WebDesign/Review_Page_with_Fetch_Rest_API/Preview_Image.png)
