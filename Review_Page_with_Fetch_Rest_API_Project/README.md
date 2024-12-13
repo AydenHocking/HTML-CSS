@@ -1,6 +1,6 @@
-# Blog API Project
+# Review Page with Fetch and Rest API Project
 
-This project is a blog-style API where users can add, edit, and delete blog posts. The site interacts with a JSON database to manage the posts and manipulate them in different ways. A keyword search bar is implemented, along with various organization techniques. 
+This project is a review page in which users can add, edit, and remove reviews from a JSON database. It uses a star review system to calculate average scores and organize the reviews across the page. The user can adjust the organization method based on their preference.
 
 ---
 

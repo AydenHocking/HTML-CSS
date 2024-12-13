@@ -1,0 +1,83 @@
+:root {
+    --content-height: 0px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #005035;
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    color: #a49665;
+    text-align: center;
+    margin: 1rem;
+}
+
+header p {
+    width: 80%;
+    margin: auto;
+}
+
+.accordion {
+    width: 80%;
+    margin: 1rem auto;
+    line-height: 1.5;
+}
+
+.accordion-label {
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 1rem 0.5rem;
+    text-align: left;
+    background-color: #665105;
+    opacity: 0.7;
+    border: none;
+    color: white;
+    position: relative;
+    transition: opacity 0.5s ease-out;
+}
+
+.accordion-content {
+    margin-bottom: 0.5rem;
+    width: 100%;
+    height: 0;     
+    transition: height 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+.accordion-content.open {
+    height: auto;    
+    overflow: auto;
+}
+
+.accordion-label.open {
+    opacity: 1;
+}
+
+.accordion-label::after {
+    content: '+';
+    position: absolute;
+    right: 1rem;
+    font-size: 1.2rem;
+}
+
+.accordion-label.open::after {
+    content: '-';
+    font-size: 1.5rem;
+}
+
+
+

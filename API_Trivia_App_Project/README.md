@@ -1,6 +1,6 @@
-# Blog API Project
+# API Trivia App Project 
 
-This project is a blog-style API where users can add, edit, and delete blog posts. The site interacts with a JSON database to manage the posts and manipulate them in different ways. A keyword search bar is implemented, along with various organization techniques. 
+This project is a Trivia App where users can play a trivia game from an openDB database of questions. The category and difficulty can be adjusted to the user's preference. The correct or incorrect answers are displayed after each question, and the score screen is shown at the end of the quiz.
 
 ---
 
@@ -19,8 +19,6 @@ This project is a blog-style API where users can add, edit, and delete blog post
 
 - **Technologies**:
   - APIs
-  - `.json` databases
-  - Node.js (`json-server@0.7.19`)
 
 ---
 

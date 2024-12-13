@@ -1,0 +1,139 @@
+
+/*CSS Variables*/
+:root {
+  --clr-primary: #9c5526;
+  --clr-bg: #54331d;
+  --clr-neutral: #ede7e3;
+  --clr-black:hsla(30, 4%, 20%, 0.8);
+  --clr-neutral75: hsl(24, 22%, 91%, 0.75);
+}
+
+/*Global Styles*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Header*/
+header {
+  color: var(--clr-neutral);
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+header p {
+  color: var(--clr-neutral75);
+}
+
+/* main */
+main{
+  background-color: var(--clr-neutral);
+  width: 80%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+
+}
+body {
+  font-family: 'Open Sans',sans-serif;
+  color: var(--clr-black);
+  line-height: 1.5;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("/images/coffee.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h1,h3,h4 {
+  font-family: 'Oswald',sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+}
+h1 {
+  font-size: 2.488rem;
+}
+h3 {
+  color: var(--clr-primary);
+  font-size: 1.728rem;
+  margin-bottom: 1rem;
+}
+h4 {
+  color: var(--clr-primary);
+  font-size: 1.44rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+/* about section */
+#about {
+  margin-bottom: 1rem;
+}
+#about p{
+margin-bottom: 0.5rem;
+}
+li{
+  list-style: none;
+  background-image: url('/Lab3-starter/images/logo.png');
+  background-repeat: no-repeat;
+  background-size: 1em 1em;
+  padding-left: 1.5em;
+  background-position: 0 0.3em;
+}
+
+/*menu section*/
+#menu{
+  margin-bottom: 1rem;
+}
+#menu section:first-of-type{
+  padding-bottom: 1rem;
+}
+.item p {
+  display: inline-block;
+
+}
+
+.title {
+  width: 75%;
+  text-align: left;
+}
+
+.price {
+  width: 25%;
+  text-align: right;
+}
+/*location & hours section*/
+#location div{
+  text-align: center;
+
+}
+iframe {
+  width: 360px;
+  height: 270px;
+  border: none;
+  margin-bottom: 1rem;
+
+}
+a {
+  color: var(--clr-primary);
+  text-decoration-line: none;
+  border-bottom: 2px solid rgba(0,0,0,0);
+}
+a:hover{
+  border-color: var(--clr-primary);
+}
+
+/*footer*/
+footer {
+  background-color: var(--clr-bg);
+  color: var(--clr-neutral);
+  font-size: 0.833rem;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}

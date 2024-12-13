@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niner Trivia</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Niner Trivia</h1>
+    </header>
+    <main>
+        <div class="category card">
+            <div class="card-header">Pick a Category</div>
+            <div class="card-body">
+                <div class="category-item" data-category="25">Art</div>
+                <div class="category-item" data-category="10">Books</div>
+                <div class="category-item" data-category="29">Comics</div>
+                <div class="category-item" data-category="22">Geography</div>
+                <div class="category-item" data-category="23">History</div>
+                <div class="category-item" data-category="11">Movie</div>
+                <div class="category-item" data-category="12">Music</div>
+                <div class="category-item" data-category="14">Television</div>
+                <div class="category-item" data-category="20">Mythology</div>
+                <div class="category-item" data-category="27">Animals</div>
+                <div class="category-item" data-category="18">Computers</div>
+                <div class="category-item" data-category="21">Sports</div>
+                <button>Play<span>&#x25B6;</span></button>
+            </div>
+        </div>
+
+        <div class="question card hidden">
+            <div class="card-header">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="card-body">
+                <div class="question-text"></div>
+                <button>Submit</button>
+            </div>
+        </div>
+
+        <div class="skeleton card hidden">
+            <div class="card-header">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="card-body">
+                <div class="question-text"></div>
+                <div class="option-item"></div>
+                <div class="option-item"></div>
+                <div class="option-item"></div>
+                <div class="option-item"></div>
+                <button></button>
+            </div>
+        </div>
+
+        <div class="score card hidden">
+            <div class="card-header">
+                Well Done!
+            </div>
+            <div class="card-body">
+                <div class="balloon-container">
+                    <div class="balloon"></div>
+                    <div class="balloon"></div>
+                    <div class="balloon"></div>
+                </div>
+                <div class="score-board">
+                    <div class="stat"></div>
+                    <div class="stat"></div>
+                    <button>Play Again!<span>&#x25B6</span></button>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+</body>
