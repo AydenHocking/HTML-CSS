@@ -1,3 +1,4 @@
+# Web Design
 The folder showcases a variety of projects I have completed and designed in my journey through web design. This is a repository to document the skills, techniques, and tools I have used on this journey. 
 
 - **Frontend**:
